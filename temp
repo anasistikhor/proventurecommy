@@ -1,0 +1,191 @@
+/* setup */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+:root {
+  --primary-color: #000000;
+  --secondary-color: #ffffff;
+  --third-color: #3a4052;
+  --fourth-color: #4b6cb7;
+  --fifth-color: #182848;
+  --sixth-color: #faa700;
+  --seventh-color: #eee;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans";
+  line-height: 1.5;
+}
+a {
+  text-decoration: none;
+  color: var(--third-color);
+}
+h1 {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 1;
+  margin-bottom: 12px;
+}
+h2 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 2;
+}
+hr {
+  height: 1px;
+  border: none;
+  color: var(--fifth-color);
+  background-color: var(--fifth-color);
+  width: 60%;
+  margin: 0 auto;
+}
+img {
+  //max-width: 100%;
+  //display: block;
+}
+section {
+  padding: 7em 0;
+}
+/* /setup */
+/* section-showcase*/
+.showcase {
+  display: flex;
+  height: 100vh;
+  // background: rgb(0, 0, 0);
+  // background: linear-gradient(
+  //   180deg,
+  //   rgba(0, 0, 0, 1) 0%,
+  //   rgba(69, 131, 255, 1) 100%
+  // );
+  background: #222;
+  padding: 0 100px;
+  align-items: center;
+}
+@supports (background-blend-mode: multiply) {
+  .showcase {
+    background: url(/img/klcc.jpg), radial-gradient(#444, #111);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
+.content {
+  max-width: 500px;
+  color: var(--secondary-color);
+  z-index: 2;
+}
+.btn {
+  display: inline-block;
+  //padding: 10px 20px;
+  padding: 0.6em 1.3em;
+  background: var(--third-color);
+  color: var(--secondary-color);
+  //border-radius: 5px;
+  font-weight: 700;
+  font-size: 1.125rem;
+  border-radius: 0.25em;
+  border: solid var(--secondary-color) 2px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.btn-ctc {
+  display: inline-block;
+  padding: 0.6em 1.3em;
+  //padding: 10px 20px;
+  background: var(--sixth-color, blue);
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 1.125rem;
+  border-radius: 0.25em;
+  border: solid var(--sixth-color, blue) 2px;
+}
+.btn:hover {
+  transform: scale(0.98);
+}
+.btn-ctc:hover {
+  transform: scale(0.98);
+}
+// .video-container {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   overflow: hidden;
+//   background: var(--secondary-color) url("/img/cover.jpg") no-repeat center
+//     center/cover;
+// }
+// .video-container video {
+//   min-width: 100%;
+//   min-height: 100%;
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+//   object-fit: cover;
+// }
+// .video-container:after {
+//   content: "";
+//   z-index: 1;
+//   height: 100%;
+//   width: 100%;
+//   top: 0;
+//   left: 0;
+//   background: rgba(0, 0, 0, 0.7);
+//   position: absolute;
+// }
+/* /section-showcase */
+
+/* section-about */
+#about {
+  background: var(--seventh-color);
+}
+/* /section-about */
+
+/* section-contact */
+
+/* /section-contact */
+
+
+(index.html)
+<section id="about" class="featured">
+      <div>
+      <h2>What We Do</h2>
+      <hr>
+      <p>
+        From strategy to execution, our winning combination of innovative
+        thinking, scientific design, sophisticated development, and ongoing
+        analysis ensure we're delivering value to help you grow
+      </p>
+      <div>
+        <ul class="bw">
+          <li class="" style="width: 200px">
+            <i class="b fas fa-layer-group fa-4x"></i>
+            <figcaption>Procurement & Supply Chain Consultancy</figcaption>
+          </li>
+          <li class="" style="width: 200px">
+            <i class="b fas fa-business-time fa-4x"></i>
+            <figcaption>Business Sourcing & Facilitation Services</figcaption>
+          </li>
+          <li class="" style="width: 200px">
+            <i class="b fas fa-fire fa-4x"></i>
+            <figcaption>Oil & Gas Engineering Supplies & Services</figcaption>
+          </li>
+          <li class="" style="width: 200px">
+            <i class="b fas fa-box-open fa-4x"></i>
+            <figcaption>Export and Import of Variety of Goods</figcaption>
+          </li>
+          <li class="" style="width: 200px">
+            <i class="b fas fa-chart-line fa-4x"></i>
+            <figcaption>
+              Investment & Acquisition of Asset, Land & Property
+            </figcaption>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </section>
