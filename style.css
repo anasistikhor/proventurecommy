@@ -2,8 +2,6 @@
 *::before *::after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -23,7 +21,11 @@ p {
   margin: 0;
 }
 section {
-  padding: 3em 0;
+  // padding: 3em 0;
+  padding: 7em 0;
+}
+#about {
+  padding-bottom: 10em;
 }
 .container {
   width: 85%;
@@ -61,7 +63,10 @@ section {
   font-size: 1.125rem;
   padding: 0.5em 1.25em;
   margin-right: 20px;
-  background: var(--clr-accent, blue);
+  // background: var(--clr-accent, blue);
+  background: #146eb4;
+  // outline: 5px solid #fff;
+  // outline-offset: 5px;
   border-radius: 0.25em;
   -webkit-transition: opacity 250ms linear, -webkit-transform 250ms ease-in-out;
   transition: opacity 250ms linear, -webkit-transform 250ms ease-in-out;
@@ -75,6 +80,14 @@ section {
   transform: scale(1.1);
   opacity: 0.9;
 }
+
+// .logo {
+//   max-width: 100px;
+//   height: auto;
+//   position: absolute;
+
+// }
+
 .primary-title {
   font-size: 4rem;
   font-size: clamp(3rem, calc(5vw + 1rem), 4.5rem);
@@ -93,21 +106,23 @@ section {
   font-size: clamp(2.5rem, calc(5vw + 1rem), 4rem);
   line-height: 1;
   color: #17353d;
-  margin-bottom: 2rem;
+  // margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 .section-subtitle {
   text-align: center;
   font-size: clamp(1.25rem, calc(2.25vw + 0.2rem), 2rem);
   line-height: 1;
   color: #17353d;
-  margin-bottom: 1.25rem;
+  // margin-bottom: 1.25rem;
+  margin-bottom: 2.5rem;
   text-transform: lowercase;
 }
 
 .hero {
   color: white;
   text-align: center;
-  padding: 15em 0;
+  padding: 17.5em 0;
   background: #222;
 }
 @supports (background-blend-mode: multiply) {
@@ -121,12 +136,6 @@ section {
     background-size: cover;
   }
 }
-// #logo {
-//   background: url(img/logo-co.png);
-//   display: inline-block;
-//   height: 200px;
-//   z-index: 1;
-// }
 
 .featured-about {
   background: #eee;
