@@ -363,12 +363,12 @@ section {
 /* footer */
 
 .footer {
-  // display: flex;
-  // flex-direction: column;
+  flex-shrink: 0;
+  padding: 20px;
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-top: 20px;
+  margin: 20px;
 }
 
 /* /footer */
