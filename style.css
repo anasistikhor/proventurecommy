@@ -50,7 +50,7 @@ section {
 }
 
 .spacing > * + * {
-  margin-top: var(--spacer, 2rem);
+  margin-top: var(--spacer, 3rem);
 }
 
 .btn {
@@ -106,7 +106,7 @@ section {
 
 .hero {
   color: white;
-  text-align: start;
+  text-align: center;
   padding: 15em 0;
   background: #222;
 }
@@ -271,7 +271,7 @@ section {
   border: none;
   border-bottom: 1px solid #333;
   color: #17353d;
-  font-size: 14px;
+  font-size: 16px;
   text-transform: uppercase;
   outline: none;
   transition: border-color 0.2s;
@@ -286,7 +286,7 @@ section {
   background: none;
   border: none;
   color: #17353d;
-  font-size: 16px;
+  font-size: 18px;
   cursor: pointer;
   outline: none;
 }
