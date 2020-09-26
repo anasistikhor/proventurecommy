@@ -1,15 +1,17 @@
+/* SETUP */
 *,
 *::before *::after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
+.hero {
+  --clr-accent: #faa700;
+}
 body {
   margin: 0;
   font-family: "Noto Sans JP", sans-serif;
   line-height: 1.6;
 }
-
 img {
   max-width: 100%;
   display: block;
@@ -24,37 +26,36 @@ section {
   // padding: 3em 0;
   padding: 7em 0;
 }
-#about {
-  padding-bottom: 10em;
+/* END SETUP */
+
+/* HERO (header) */
+.hero {
+  color: white;
+  text-align: center;
+  padding: 17.5em 0;
+  background: #222;
 }
+@supports (background-blend-mode: multiply) {
+  .hero {
+    // background: url(img/malaysia.jpg), radial-gradient(#444, #111);
+    background: url(img/malaysiahero.jpg), radial-gradient(#b9b6b6, #444444);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+}
+/* .container also used by section about and section contact */
 .container {
   width: 85%;
   max-width: 65em;
   margin: 0 auto;
 }
-
-.split {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 1em;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.split > * {
-  -ms-flex-preferred-size: 30%;
-  flex-basis: 30%;
-  min-width: 15em;
-}
-
+/* spacing between primary title and button */
 .spacing > * + * {
   margin-top: var(--spacer, 3rem);
 }
-
 .btn {
   display: inline-block;
   text-decoration: none;
@@ -80,27 +81,31 @@ section {
   transform: scale(1.1);
   opacity: 0.9;
 }
-
-// .logo {
-//   max-width: 100px;
-//   height: auto;
-//   position: absolute;
-
-// }
-
 .primary-title {
   font-size: 4rem;
   font-size: clamp(3rem, calc(5vw + 1rem), 4.5rem);
   line-height: 1;
   text-transform: lowercase;
 }
-.section-subtitle-hero {
-  text-align: start;
-  font-size: 2rem;
-  font-size: clamp(1.5rem, calc(2.25vw + 0.5rem), 2.25rem);
-  line-height: 1;
-  color: #fff;
+/* FUTURE IF WANTED TO USE */
+// .section-subtitle-hero {
+//   text-align: start;
+//   font-size: 2rem;
+//   font-size: clamp(1.5rem, calc(2.25vw + 0.5rem), 2.25rem);
+//   line-height: 1;
+//   color: #fff;
+// }
+/* /FUTURE IF WANTED TO USE */
+/* /HERO (header) */
+
+/* SECTION ABOUT */
+#about {
+  padding-bottom: 10em;
 }
+.featured-about {
+  background: #eee;
+}
+/* section-title used by both sections ( about & contact )*/
 .section-title {
   text-align: center;
   font-size: clamp(2.5rem, calc(5vw + 1rem), 4rem);
@@ -109,6 +114,7 @@ section {
   // margin-bottom: 2rem;
   margin-bottom: 5rem;
 }
+/* section-subtitle used by both sections ( about & contact )*/
 .section-subtitle {
   text-align: center;
   font-size: clamp(1.25rem, calc(2.25vw + 0.2rem), 2rem);
@@ -118,33 +124,23 @@ section {
   margin-bottom: 2.5rem;
   text-transform: lowercase;
 }
-
-.hero {
-  color: white;
-  text-align: center;
-  padding: 17.5em 0;
-  background: #222;
+/* SUB-section about (split) */
+.split {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
-@supports (background-blend-mode: multiply) {
-  .hero {
-    // background: url(img/malaysia.jpg), radial-gradient(#444, #111);
-    background: url(img/malaysiahero.jpg), radial-gradient(#b9b6b6, #444444);
-    background-blend-mode: multiply;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-  }
+.split > * {
+  -ms-flex-preferred-size: 30%;
+  flex-basis: 30%;
+  min-width: 15em;
 }
-
-.featured-about {
-  background: #eee;
-}
-.featured-contact {
-  background: #f6f6f6;
-  padding-bottom: 0;
-}
-
 .featured__item {
   display: inline-block;
   position: relative;
@@ -167,12 +163,20 @@ section {
   font-size: 1.25em;
   align-content: center;
 }
+/* /END SUB-section about (split) */
+/* /END SECTION ABOUT */
 
-/* Form */
+/* SECTION CONTACT */
+.featured-contact {
+  background: #f6f6f6;
+  padding-bottom: 0;
+}
+/* /END SECTION CONTACT */
+
+/* FORM */
 .background {
-  //background: #fff;
+  background: #eee;
   font-size: 12px;
-  //font-weight: 100;
   letter-spacing: 1.4px;
 }
 .background {
@@ -180,8 +184,6 @@ section {
   min-height: auto;
 }
 .container-form {
-  //width: 85%;
-  //max-width: 65em;
   flex: 0 1 950px;
   margin: auto;
   padding: 10px;
@@ -192,7 +194,6 @@ section {
   border-radius: 15px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
-
 .screen-header {
   display: flex;
   align-items: center;
@@ -330,40 +331,33 @@ section {
   .screen-body {
     flex-direction: column;
   }
-
   .screen-body-item.left {
     margin-bottom: 30px;
   }
-
   .app-title {
     flex-direction: row;
   }
-
   .app-title span {
     margin-right: 12px;
   }
-
   .app-title:after {
     display: none;
   }
 }
-
 @media screen and (max-width: 600px) {
   .screen-body {
     padding: 40px;
   }
-
   .screen-body-item {
     padding: 0;
   }
 }
 /* /media queries form*/
 
-/* /form */
+/* /END FORM */
 
-/* footer */
+/* FOOTER */
 .footer-distributed {
-  //background-color: #f5f5f5;
   background: rgb(246, 246, 246);
   background: linear-gradient(
     180deg,
@@ -386,7 +380,7 @@ section {
   font: normal 16px "Cookie", cursive;
   margin: 0;
 }
-/* The company logo */
+/* company logo */
 .footer-distributed .footer-left img {
   width: 100%;
   max-width: 35px;
@@ -407,8 +401,4 @@ section {
     display: none;
   }
 }
-/* /footer */
-
-.hero {
-  --clr-accent: #faa700;
-}
+/* /END FOOTER */

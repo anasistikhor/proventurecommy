@@ -78,7 +78,7 @@
 
       <!-- section contact -->
       <section id="contact" class="featured-contact">
-        <div class="container container-contact">
+        <div class="container">
           <h2 class="section-title">Contact Us</h2>
           <p class="section-subtitle">
             Need addtional information or have a question? Please feel free to
@@ -199,7 +199,9 @@
           <div class="footer-left">
             <img src="img/logo-co.png" />
             <h3>Proventure<span> Forging Ahead</span></h3>
-            <p class="footer-company-name">© 2020 IAM PROVENTURE PLT</p>
+            <p class="footer-company-name">
+              &copy;<span id="year"></span> IAM PROVENTURE PLT
+            </p>
           </div>
         </footer>
         <!-- /footer -->
@@ -207,6 +209,15 @@
       <!-- /section contact -->
 
       <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+      <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"
+      ></script>
+      <script>
+        // Get the current year for the copyright
+        $("#year").text(new Date().getFullYear());
+      </script>
       <script src="main.js"></script>
     </main>
   </body>
