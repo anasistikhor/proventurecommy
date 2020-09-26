@@ -23,9 +23,9 @@ p {
   margin: 0;
 }
 section {
-  //padding: 3em 0; (original setting)
-  padding: 4em 0;
+  // padding: 3em 0; (original setting)
   //padding: 7em 0;
+  padding: 4em 0;
 }
 /* END SETUP */
 
@@ -64,7 +64,7 @@ section {
   font-weight: 700;
   font-size: 1.125rem;
   padding: 0.5em 1.25em;
-  margin-right: 20px;
+  //margin-right: 20px;
   // background: var(--clr-accent, blue);
   background: #146eb4;
   // outline: 5px solid #fff;
