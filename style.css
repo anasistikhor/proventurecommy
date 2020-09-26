@@ -167,6 +167,9 @@ section {
 /* /END SECTION ABOUT */
 
 /* SECTION CONTACT */
+#contact {
+  background: #f6f6f6;
+}
 .featured-contact {
   background: #f6f6f6;
   padding-bottom: 0;
@@ -175,7 +178,7 @@ section {
 
 /* FORM */
 .background {
-  background: #eee;
+  background: #f6f6f6;
   font-size: 12px;
   letter-spacing: 1.4px;
 }
@@ -190,7 +193,7 @@ section {
 }
 .screen {
   position: relative;
-  background: #eee;
+  background: #fff;
   border-radius: 15px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
