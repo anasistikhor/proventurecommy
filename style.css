@@ -23,8 +23,9 @@ p {
   margin: 0;
 }
 section {
-  // padding: 3em 0;
-  padding: 7em 0;
+  //padding: 3em 0; (original setting)
+  padding: 4em 0;
+  //padding: 7em 0;
 }
 /* END SETUP */
 
@@ -100,7 +101,7 @@ section {
 
 /* SECTION ABOUT */
 #about {
-  padding-bottom: 10em;
+  padding-bottom: 0;
 }
 .featured-about {
   background: #eee;
