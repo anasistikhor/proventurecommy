@@ -395,11 +395,11 @@ section {
   margin: 0;
 }
 /* company logo */
-.footer-logo {
-  //width: 100%;
-  display: block;
-  max-width: 2.25em;
-}
+// .footer-logo {
+//   //width: 100%;
+//   display: block;
+//   max-width: 2.25em;
+// }
 .footer-distributed h3 span {
   color: #333;
 }
