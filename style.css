@@ -390,7 +390,8 @@ section {
   width: 100%;
 }
 .footer-distributed h3 {
-  color: #333;
+  //color: #333;
+  color: #ea1d6f;
   font: normal 16px "Cookie", cursive;
   margin: 0;
 }
@@ -401,7 +402,8 @@ section {
   float: left;
 }
 .footer-distributed h3 span {
-  color: #ea1d6f;
+  //color: #ea1d6f;
+  color: #333;
 }
 /* Footer links */
 .footer-distributed .footer-company-name {
