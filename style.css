@@ -1,7 +1,6 @@
 /* SETUP */
 *,
 *::before *::after {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 .hero {
@@ -33,15 +32,15 @@ section {
 .hero {
   color: white;
   text-align: center;
-  padding: 17.5em 0;
+  padding: 19em 0;
   //padding: 40em 0;
   //background: #222;
+  background: rgb(162, 181, 191);
 }
 @supports (background-blend-mode: multiply) {
   .hero {
     //background: url(img/malaysiahero.jpg), radial-gradient(#444, #111);
     //background: url(img/malaysiahero.jpg), radial-gradient(#b9b6b6, #444444);
-    background: url(img/malaysiahero.jpg), rgb(162, 181, 191);
     background: url(img/malaysiahero.jpg),
       radial-gradient(
         circle,
@@ -74,6 +73,7 @@ section {
   color: var(--clr-text, #fff);
   font-weight: 700;
   font-size: 1.125rem;
+  text-transform: uppercase;
   padding: 0.5em 1.25em;
   //margin-right: 20px;
   background: var(--clr-accent, blue);
@@ -123,8 +123,8 @@ section {
   font-size: clamp(2.5rem, calc(5vw + 1rem), 4rem);
   line-height: 1;
   color: #17353d;
-  // margin-bottom: 2rem;
-  margin-bottom: 5rem;
+  // margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 /* section-subtitle used by both sections ( about & contact )*/
 .section-subtitle {
