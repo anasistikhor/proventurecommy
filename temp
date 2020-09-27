@@ -189,3 +189,58 @@ section {
       </div>
       </div>
     </section>
+
+    /* footer */
+    // .footer-distributed {
+//   display: flex;
+//   gap: 0.5em;
+//   flex-wrap: wrap;
+//   justify-content: center;
+//   background: rgb(246, 246, 246);
+//   background: linear-gradient(
+//     180deg,
+//     rgba(246, 246, 246, 1) 0%,
+//     rgba(23, 53, 61, 0.4710083862646621) 100%
+//   );
+//   //width: 100%;
+//   font: bold 16px "Noto Sans JP", sans-serif;
+//   padding: 50px 30px 40px 30px;
+//   margin-top: 0px;
+// }
+// .footer-distributed h3 {
+//   color: #ea1d6f;
+//   font: normal 25px "Cookie", cursive;
+//   margin: 0;
+// }
+
+// /* company logo */
+// // .footer-logo {
+// //   width: 100%;
+// //   max-width: 2.25em;
+// //   float: left;
+
+// // }
+// .footer-distributed h3 span {
+//   color: #333;
+// }
+// /* Footer links */
+// .footer-distributed .footer-company-name {
+//   color: #17353d;
+//   font-size: 0.8rem;
+//   font-weight: normal;
+//   margin: 0;
+//   text-align: center;
+// }
+ /* /footer */
+
+ <!-- /form -->
+        <!-- footer -->
+        <!-- <footer class="footer-distributed">
+          <div class="footer-left">
+            <span><img class="footer-logo" src="img/logo-co.png" />
+              <h3>Proventure<span> Forging Ahead</span></h3></span>
+            <p class="footer-company-name">
+              &copy;<span id="year"></span> IAM PROVENTURE PLT
+            </p>
+          </div>
+        </footer> -->
