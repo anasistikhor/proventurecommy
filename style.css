@@ -382,14 +382,18 @@ section {
   );
   box-sizing: border-box;
   width: 100%;
-  text-align: left;
   font: bold 16px "Noto Sans JP", sans-serif;
   padding: 50px 30px 40px 30px;
   margin-top: 0px;
-}
-/* Footer left */
-.footer-distributed .footer-left {
-  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5em;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 .footer-distributed h3 {
   //color: #333;
@@ -398,10 +402,9 @@ section {
   margin: 0;
 }
 /* company logo */
-.footer-distributed .footer-left img {
+.footer-distributed img {
   width: 100%;
-  max-width: 35px;
-  float: left;
+  max-width: 2.5em;
 }
 .footer-distributed h3 span {
   //color: #ea1d6f;
@@ -411,7 +414,7 @@ section {
 .footer-distributed .footer-company-name {
   color: #17353d;
   //color: #8f9296;
-  font-size: 12px;
+  font-size: 0.8em;
   font-weight: normal;
   margin: 0;
 }
