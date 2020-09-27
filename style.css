@@ -388,7 +388,6 @@ section {
   font: bold 16px "Noto Sans JP", sans-serif;
   padding: 50px 30px 40px 30px;
   margin-top: 0px;
-  
 }
 .footer-distributed h3 {
   color: #ea1d6f;
@@ -398,7 +397,7 @@ section {
 /* company logo */
 .footer-distributed img {
   width: 100%;
-  max-width: 2.5em;
+  max-width: 10%;
 }
 .footer-distributed h3 span {
   color: #333;
