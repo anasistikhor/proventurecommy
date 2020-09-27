@@ -397,7 +397,7 @@ section {
 /* company logo */
 .footer-distributed img {
   width: 100%;
-  max-width: 10%;
+  max-width: 2.25em;
 }
 .footer-distributed h3 span {
   color: #333;
