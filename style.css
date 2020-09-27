@@ -421,13 +421,15 @@ section {
 }
 @media (max-width: 880px) {
   .footer-left img {
-    margin-left: 20px;
-    margin-right: -40px;
+    margin-left: 30px;
+    margin-right: -30px;
   }
 }
 @media (max-width: 880px) {
   .footer-distributed h3 {
-    margin-right: 25px;
+    margin-right: 20px;
+    text-align: center;
+    font: normal 16px "Cookie", cursive;
   }
 }
 
