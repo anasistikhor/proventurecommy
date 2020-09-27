@@ -40,10 +40,16 @@ section {
   .hero {
     //background: url(img/malaysiahero.jpg), radial-gradient(#444, #111);
     //background: url(img/malaysiahero.jpg), radial-gradient(#b9b6b6, #444444);
-    background: url(img/malaysiahero.jpg), rgb(162,181,191);
-    background: url(img/malaysiahero.jpg), radial-gradient(circle, rgba(162,181,191,1) 0%, rgba(12,26,30,1) 99%, rgba(12,33,44,1) 100%); 
+    background: url(img/malaysiahero.jpg), rgb(162, 181, 191);
+    background: url(img/malaysiahero.jpg),
+      radial-gradient(
+        circle,
+        rgba(162, 181, 191, 1) 0%,
+        rgba(12, 26, 30, 1) 99%,
+        rgba(12, 33, 44, 1) 100%
+      );
     //background: url(img/malaysiahero.jpg), rgb(162,181,191);
-    //background: url(img/malaysiahero.jpg), radial-gradient(circle, rgba(162,181,191,1) 0%, rgba(12,26,30,0.49901959074645486) 99%, rgba(12,33,44,1) 100%); 
+    //background: url(img/malaysiahero.jpg), radial-gradient(circle, rgba(162,181,191,1) 0%, rgba(12,26,30,0.49901959074645486) 99%, rgba(12,33,44,1) 100%);
     background-blend-mode: multiply;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -69,8 +75,8 @@ section {
   font-size: 1.125rem;
   padding: 0.5em 1.25em;
   //margin-right: 20px;
-  // background: var(--clr-accent, blue);
-  background: #146eb4;
+  background: var(--clr-accent, blue);
+  //background: #146eb4;
   // outline: 5px solid #fff;
   // outline-offset: 5px;
   border-radius: 0.25em;
