@@ -395,7 +395,7 @@ section {
   margin: 0;
 }
 /* company logo */
-.footer-distributed img {
+.footer-logo {
   //width: 100%;
   display: block;
   max-width: 2.25em;
