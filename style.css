@@ -385,18 +385,12 @@ section {
   font: bold 16px "Noto Sans JP", sans-serif;
   padding: 50px 30px 40px 30px;
   margin-top: 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 0.5em;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
 .footer-distributed h3 {
-  //color: #333;
   color: #ea1d6f;
   font: normal 20px "Cookie", cursive;
   margin: 0;
@@ -407,16 +401,13 @@ section {
   max-width: 2.5em;
 }
 .footer-distributed h3 span {
-  //color: #ea1d6f;
   color: #333;
 }
 /* Footer links */
 .footer-distributed .footer-company-name {
   color: #17353d;
-  //color: #8f9296;
   font-size: 0.8em;
   font-weight: normal;
   margin: 0;
 }
-
 /* /END FOOTER */
