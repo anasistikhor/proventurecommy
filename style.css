@@ -414,8 +414,21 @@ section {
   margin: 0;
 }
 @media (max-width: 880px) {
-  .footer-distributed .footer-left {
-    display: none;
+  .footer-left {
+    width: auto;
+    text-align: center;
   }
 }
+@media (max-width: 880px) {
+  .footer-left img {
+    margin-left: 20px;
+    margin-right: -40px;
+  }
+}
+@media (max-width: 880px) {
+  .footer-distributed h3 {
+    margin-right: 25px;
+  }
+}
+
 /* /END FOOTER */
