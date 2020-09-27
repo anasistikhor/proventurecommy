@@ -9,6 +9,7 @@
 body {
   margin: 0;
   font-family: "Noto Sans JP", sans-serif;
+
   line-height: 1.6;
 }
 // img {
@@ -382,7 +383,7 @@ section {
   box-sizing: border-box;
   width: 100%;
   text-align: left;
-  font: bold 16px sans-serif;
+  font: bold 16px "Noto Sans JP", sans-serif;
   padding: 50px 30px 40px 30px;
   margin-top: 0px;
 }
@@ -393,7 +394,7 @@ section {
 .footer-distributed h3 {
   //color: #333;
   color: #ea1d6f;
-  font: normal 16px "Cookie", cursive;
+  font: normal 20px "Cookie", cursive;
   margin: 0;
 }
 /* company logo */
@@ -408,11 +409,11 @@ section {
 }
 /* Footer links */
 .footer-distributed .footer-company-name {
-  color: #8f9296;
-  font-size: 14px;
+  color: #17353d;
+  //color: #8f9296;
+  font-size: 12px;
   font-weight: normal;
   margin: 0;
 }
-
 
 /* /END FOOTER */
