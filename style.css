@@ -216,7 +216,8 @@ section {
 }
 .screen {
   position: relative;
-  background: #fff;
+  //background: #fff;
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
   border-radius: 15px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
