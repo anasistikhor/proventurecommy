@@ -259,14 +259,16 @@ section {
   display: flex;
   flex-direction: column;
 }
-.app-title, .app-titles {
+.app-title,
+.app-titles {
   display: flex;
   flex-direction: column;
   position: relative;
   color: #17353d;
   font-size: 26px;
 }
-.app-title:after, .app-titles:after {
+.app-title:after,
+.app-titles:after {
   content: "";
   display: block;
   position: absolute;
@@ -356,7 +358,8 @@ section {
   .app-title span {
     margin-right: 12px;
   }
-  .app-title:after, .app-titles:after {
+  .app-title:after,
+  .app-titles:after {
     display: none;
   }
 }
