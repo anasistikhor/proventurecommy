@@ -183,6 +183,22 @@ section {
   font-size: 1.25em;
   align-content: center;
 }
+.fa-layer-group {
+  text-shadow: 3px 6px #d5d4d0;
+}
+.fa-business-time {
+  text-shadow: 3px 6px #d5d4d0;
+}
+.fa-fire {
+  text-shadow: 3px 6px #d5d4d0;
+}
+.fa-box-open {
+  text-shadow: 3px 6px #d5d4d0;
+}
+.fa-chart-line {
+  text-shadow: 3px 6px #d5d4d0;
+}
+
 /* /END SUB-section about (split) */
 /* /END SECTION ABOUT */
 
