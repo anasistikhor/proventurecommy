@@ -117,7 +117,7 @@ section {
   //background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
   //background-image: linear-gradient(to top, #fdfbfb 0%, #ebedee 100%);
   background-image: linear-gradient(
-    to top,
+    to bottom,
     #d5d4d0 0%,
     #d5d4d0 1%,
     #eeeeec 31%,
@@ -229,7 +229,13 @@ section {
 .screen {
   position: relative;
   //background: #fff;
-  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  // background-image: linear-gradient(to bottom, #dfe9f3 0%, white 100%);
+  background: rgb(223, 233, 243);
+  background: linear-gradient(
+    180deg,
+    rgba(223, 233, 243, 0.5018207111946341) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
   border-radius: 15px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
