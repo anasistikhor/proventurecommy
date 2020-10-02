@@ -236,6 +236,12 @@
         // Get the current year for the copyright
         $("#year").text(new Date().getFullYear());
       </script>
+      <script>
+        //to make sure page always go to top when loaded
+        $(function () {
+          $("body").scrollTop(0);
+        });
+      </script>
       <script src="main.js"></script>
     </main>
   </body>
