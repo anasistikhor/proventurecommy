@@ -232,7 +232,7 @@ section {
   // background-image: linear-gradient(to bottom, #dfe9f3 0%, white 100%);
   background: rgb(223, 233, 243);
   background: linear-gradient(
-    180deg,
+    to top,
     rgba(223, 233, 243, 0.5018207111946341) 0%,
     rgba(255, 255, 255, 1) 100%
   );
